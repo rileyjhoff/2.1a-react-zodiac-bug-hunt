@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Main items={zodiac} />
+      <Main zodiac={zodiac} />
       <Footer />
     </div>
   )
